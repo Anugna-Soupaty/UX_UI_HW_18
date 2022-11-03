@@ -1,0 +1,153 @@
+body {
+    font-family: 'fuggles';
+    background: lightslategray;
+    color: white;
+}
+#header {
+   width: 100%;
+   height: 100%;
+}
+.logoS {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Bio {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+ 
+ button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+ p {
+ font-size: 15px;
+ }
+
+ h1 {
+   font-size: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .footer{
+   display: flex;
+ }
+ .box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .navigation{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+ }
+
+ ul {
+   list-style-type: none;
+   display: flex;
+ }
+
+ li {
+   margin: 20px;
+   color: #ffffff;
+   font-size:20px;
+ }
+
+ .Myskills {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+ }
+ #flexcontainer {
+  display: flex;
+  background-color: rgb(22, 17, 19);
+  align-content: center;
+  justify-content: center;
+ }
+ #flexcontainer div{
+  background-color: rgba(17, 198, 183, 0.801);
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+ }
+ .Define{
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height:300px; 
+ }
+ .UIDesign img{
+  align-items: center;
+  margin: 10px;
+  width: 200px;
+  height:300px; 
+ }
+ .WebDev img{
+  align-items: center;
+  margin: 5px;
+  width: 50px;
+  height:200px; 
+ }
+ .Mywork{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px;
+   border-style: solid;
+ }
+ #WorkGrid{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  border-style: solid;
+ }
+ .EASElogo{
+  display:flex;
+ }
+ .Firstproject img{
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height:300px; 
+ }
+ .Secondproject img{
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height:300px; 
+ }
+ .ThirdProject img{
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height:300px; 
+ }
+    
+ 
+
+
+ 
+ 
