@@ -108,7 +108,7 @@ body {
   height:200px; 
  }
  .Mywork{
-   display: flex;
+   display: grid;
    justify-content: center;
    align-items: center;
    flex-direction: column;
@@ -116,6 +116,12 @@ body {
    border-style: solid;
  }
  #WorkGrid{
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 100%;
+  grid-template-areas: "Firstproject"
+                        "Secondproject"
+                        "Thirdporject"
+                        "view";
   display: grid;
   align-content: center;
   justify-content: center;
@@ -128,24 +134,101 @@ body {
  .EASElogo{
   display:flex;
  }
+
+ #WorkGrid button{
+  width: 20%;
+  align-self: center;
+ }
+
  .Firstproject img{
   align-items: center;
   margin: 10px;
   width: 400px;
   height:300px; 
  }
+ .Firstproject p{
+  align-items: center;
+  display: flex;
+ }
+
+ .Firstproject h2{
+  margin-left: 35%;
+  margin-right: auto;
+ }
+
+ .Firstproject{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+ }
+
+ .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+ }
+ .HAP{
+  display:flex;
+ }
+ 
+ .Secondproject{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+ }
+ 
  .Secondproject img{
   align-items: center;
   margin: 10px;
   width: 400px;
   height:300px; 
  }
+ .Secondproject p{
+  align-items: center;
+  display: flex;
+ }
+ .Secondproject h2{
+  margin-left: 35%;
+  margin-right: auto;
+ }
+ .DOT{
+  display:flex;
+ }
+
+ .ThirdProject{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+ }
+
  .ThirdProject img{
   align-items: center;
   margin: 10px;
   width: 400px;
   height:300px; 
  }
+
+ .ThirdProject p{
+  align-items: center;
+  display: flex;
+ }
+ .ThirdProject h2{
+  margin-left: 35%;
+  margin-right: auto;
+ }
+  .view{
+    align-self:center ;
+    width: 80%;
+    padding: 15px 32px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px 3px;
+    cursor: pointer;
+  }
  
 
 
